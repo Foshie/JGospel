@@ -1,0 +1,26 @@
+List of things to do:
+
+
+-	User Interface:
+	-	Categories/Filter page on menu bar for users to pick the categories they want.
+		The default value is all checked.
+		-	Edit Button Looks
+		-   Change functionality to act as refresh homepage on button push
+		-	Make the spacing between each category bigger
+		-	Add a check all checkmark
+	-	Hide the ... panel on scroll vertical
+		-	Remove Anchor from panel
+	-	Track what links have been read using a grayed out text or something.  Opacity filter will work.
+	-	Allow user to choose which categories are more important. i.e. closer to the top.
+	-	Get Ios implementation to work with custom settings
+	-	Extra settings: display how many detailed items in each category at the start.
+						display how many to load on each load.
+	
+	
+-	Error checking in AJAX calls that result in a failure causes program to get stuck	
+	
+-	Json string sanitation
+
+-	Fix Phonegap issues with  Web version.
+
+	Commenting out the cordova.js include in index.html lets the web version work.

@@ -1,0 +1,146 @@
+.JGospelToolbar
+{
+	background: #F06440;
+	border:1px solid #fff;
+}
+.JGospelHomeToolbar,
+.JGospelLogo
+{
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid #fff;
+	color:#FFFFFF;
+}
+.JGospelLogo
+{
+	border-left:1px solid #fff;	
+}
+.JGospelCategory
+{
+    background: #F06440;
+    color:#FFFFFF;
+    border:1px solid #fff;
+}
+.JGospelToolbar.x-docked-top
+{
+	border-bottom:none;	
+}
+.x-toolbar .x-button.x-button-plain > * 
+{
+	/*margin-top:-17px;*/
+}
+.x-toolbar .x-button.x-button-plain
+{
+	padding:1.3em 0.6em;
+}
+.x-toolbar .x-button.x-button-plain.x-button-pressed
+{
+	background-image:none;
+}
+.x-toolbar .x-button.x-button-plain.x-button-pressed .x-button-label
+{
+	background:#fff;
+	color:#F06440;
+}
+.JGospelToolbar .x-button-label
+{
+	padding:10px 13px 17px 13px;	
+}
+.JGospelMenu
+{
+background-image:none;
+background: #F06440;
+}
+.JGospelMenu .menuItem
+{
+	color: #fff;
+}
+.JGContentList .contentListItem 
+{
+	font-family:Arial;
+	height:auto;
+}
+.JGContentList .contentListItem .title 
+{ 
+	margin-bottom:2px;
+	color:#000;
+}
+.JGContentList .contentListItem .thumb,
+.JGContentList .contentListItem .info 
+{ 
+	float:left; 
+}
+.JGContentList .contentListItem .info 
+{ 
+	margin-left:7px; 
+	font-size:10pt; 
+	color:#444;
+}
+.JGContentList .contentListItem .thumb img 
+{ 
+	-moz-box-shadow: 3px 3px 5px #999; 
+	-moz-border-radius-bottomright: 15px;
+	-webkit-box-shadow: 3px 3px 5px #999;
+}
+.JGContentList .contentListItem h2 
+{ 
+	font-size:12pt; 
+}
+.JGContentList .clear 
+{ 
+	clear:both;
+	height:1px;
+	overflow:hidden;
+}
+.JGDetailView .title 
+{ 
+	margin-top:0; 
+	font-size:14pt; 
+	text-align:center;
+	color:#000;
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+}
+.x-list .x-list-item
+{
+	height:auto;	
+}
+.x-list .x-list-item.x-item-selected
+{
+	background:#ccc;
+	border-top-color:#888;
+	border-bottom-color:#888;
+	text-shadow:0 0 0 #000;
+}
+.JGospelDetailToolbar
+{
+	padding-top:6px;	
+}
+.JGospelDetailToolbar .x-icon-mask
+{
+	position:relative;
+}
+.x-floating .x-panel-body, .x-floating .x-carousel-body
+{
+	-webkit-border-radius: 0;
+	border-radius:0;
+}
+.JGospelToolbar .x-button .x-button-label
+{
+	font-size:12pt;	
+}
+.JGospelDetailToolbar .x-button.x-button-plain.x-button-pressed
+{
+	padding-bottom:20px;
+}
+.x-scroll-view
+{
+background:none;
+}
+/*gobal control*/
+.gobal { position:absolute; z-index:9999;}
+#logo { top:40px; left:30px;}
+#triColorTop { top:0px;}
+#triColorBtm { bottom:152px;}
+#speaker { right:170px; top:40px; width:45px;}
+#homeBtn{ right:20px; top:42px;}
